@@ -1,0 +1,15 @@
+<html>
+
+<head></head>
+
+<body>
+    {% for image in images %}
+    <div>
+        <a href="/bigimage.php?image={{ image }}">
+            <img src="{{ image }}">
+        </a>
+    </div>
+    {% endfor %}
+</body>
+
+</html>
